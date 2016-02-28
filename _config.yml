@@ -1,14 +1,26 @@
-layout_spectrum: 0.5681003
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.6792115
 color:
   saturation: 0.6935484
+  brandStrength: 0.516129
   lightness: 0.4050179
-  brandStrength: 0.5197133
   brandColors:
-    - '#0E0D0D'
-    - '#885441'
-    - '#C5886E'
-    - '#FFFFFB'
-    - '#FFFBA3'
+    - '#0D0D0C'
+    - '#4B4230'
+    - '#FFFFFF'
+    - '#87819A'
+    - '#65645C'
   rhythmicContrast: 0.453405
-typography_spectrum: 0.6792115
+layout_spectrum: 0.5681003
 name: 'Marcus Kim '
